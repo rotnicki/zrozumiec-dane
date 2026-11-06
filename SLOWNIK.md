@@ -1,0 +1,42 @@
+# Słownik pojęć
+
+Poniższe definicje są krótkimi punktami orientacyjnymi. Szczegółowe wyjaśnienia znajdują się w rozdziałach. Porządek alfabetyczny.
+
+- **Atrybut** — cecha obiektu w modelu danych; w tabeli często odpowiada kolumnie.
+- **Bajt** — zwyczajowo osiem bitów; jednostka służąca m.in. do zapisywania zakodowanych znaków.
+- **Baza danych** — zorganizowany zbiór danych; często zarządzany przez specjalny system.
+- **Bit** — jednostka informacji binarnej, mogąca mieć wartość 0 albo 1.
+- **CSV** — tekstowy format tabelaryczny; wartości pól oddzielane są separatorem, często przecinkiem, w niektórych dialektach średnikiem.
+- **Dane** — wartości lub symbole, które można zapisać i przetwarzać według przyjętych reguł.
+- **Deserializacja** — odtworzenie danych/struktur na podstawie ich zapisanego lub przesłanego przedstawienia.
+- **Format pliku** — uzgodnione reguły, według których uporządkowano zawartość pliku.
+- **Informacja** — treść, jaką przypisujemy danym w określonym kontekście; znaczenie zależy od interpretacji.
+- **Indeks bazy** — pomocnicza struktura ułatwiająca niektóre wyszukiwania, zwykle kosztem dodatkowego miejsca i pracy przy zapisie.
+- **JSON** — tekstowy format reprezentacji obiektów, tablic i podstawowych typów wartości.
+- **Klucz obcy** — pole lub zestaw pól odnoszący się do klucza w innej lub tej samej tabeli.
+- **Klucz podstawowy** — wybrany unikatowy identyfikator wiersza tabeli, zgodny z zasadami konkretnego systemu.
+- **Kodowanie znaków** — sposób reprezentowania znaków jako ciągów jednostek kodowych/bajtów; UTF-8 jest popularnym kodowaniem Unicode.
+- **Kolumna** — nazwana składowa tabeli opisująca jeden rodzaj właściwości.
+- **Model danych** — sposób opisu obiektów, wartości i ich zależności, niezależny od konkretnego pliku.
+- **NULL / null** — szczególne oznaczenie braku wartości, którego znaczenie zależy od modelu i języka; w SQL i JSON zasady nie są tożsame.
+- **Obiekt** — w JSON zbiór par nazwa–wartość; w analizie rzeczywistości może oznaczać coś innego, np. członka klubu.
+- **Parquet** — kolumnowy format pliku stosowany do wydajnej analizy dużych zbiorów.
+- **Pole** — konkretna część rekordu przechowująca jedną właściwość.
+- **Rekord** — zestaw wartości opisujących pojedynczy przypadek lub obiekt.
+- **Relacja (matematyczna)** — zbiór krotek z określonego modelu; w relacyjnej teorii baz termin bardziej precyzyjny niż „tabela”.
+- **Reprezentacja danych** — sposób przedstawienia informacji zgodnie z regułami interpretacji.
+- **Schemat** — opis dopuszczalnej struktury, typów i ograniczeń danych.
+- **Semantyka** — znaczenie danych i reguły ich interpretacji.
+- **Serializacja** — zamiana struktury danych na postać możliwą do zapisu lub przesłania.
+- **Silnik bazy** — oprogramowanie wykonujące operacje na danych, indeksach i transakcjach.
+- **SQL** — język definiowania i przetwarzania danych w relacyjnych systemach baz danych; nie jest nazwą formatu pojedynczego pliku.
+- **Struktura logiczna** — sposób uporządkowania pojęć i wartości widoczny dla użytkownika lub programu.
+- **Struktura fizyczna** — rzeczywisty układ bajtów, stron i innych elementów w pamięci lub na dysku.
+- **Transakcja** — logiczna całość operacji wykonywanych z określonymi gwarancjami bazy danych.
+- **Typ danych** — reguła określająca rodzaj wartości i dopuszczalne operacje, np. tekst, liczba albo wartość logiczna.
+- **UTF-8** — popularny sposób kodowania znaków Unicode w bajtach; nie jest formatem tabeli.
+- **Walidacja** — sprawdzenie danych względem zdefiniowanych zasad, np. typów i pól obowiązkowych.
+- **Wiersz** — pojedynczy zapis w tabeli; w praktyce często odpowiada rekordowi.
+- **XML** — tekstowy język znaczników do strukturyzowania dokumentów i danych.
+- **YAML** — zapis struktur danych często używany do konfiguracji; znaczące są wcięcia.
+- **Zapis binarny** — reprezentacja wykorzystująca określony układ bajtów, niekoniecznie czytelna w zwykłym edytorze.
