@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Przykladowa lista czlonkow",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["numer", "imie", "data_przyjecia", "skladka_oplacona"],
+    "properties": {
+      "numer": {"type": "integer", "minimum": 1},
+      "imie": {"type": "string", "minLength": 1},
+      "data_przyjecia": {"type": "string", "format": "date"},
+      "skladka_oplacona": {"type": "boolean"}
+    }
+  }
+}

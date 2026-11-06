@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<czlonkowie>
+  <czlonek>
+    <numer>101</numer>
+    <imie>Anna</imie>
+    <data_przyjecia>2026-09-15</data_przyjecia>
+    <skladka_oplacona>true</skladka_oplacona>
+  </czlonek>
+  <czlonek>
+    <numer>102</numer>
+    <imie>Piotr</imie>
+    <data_przyjecia>2026-10-02</data_przyjecia>
+    <skladka_oplacona>false</skladka_oplacona>
+  </czlonek>
+</czlonkowie>
